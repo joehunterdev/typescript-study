@@ -7,20 +7,47 @@ Learn the fundamentals of TypeScript, including its syntax, features, and how to
 The TypeScript Handbook is a comprehensive guide that covers various aspects of TypeScript. It is a great resource for your daily TypeScript work. The handbook covers the following topics:
 
 ### The Basics 📚
+
 ### Everyday Types 🌈
+
 ### Narrowing 🎯
+
 ### More on Functions 🔄
+
 ### Object Types 🧱
+
+- **noImplicitAny**: Disable implicit variable type assignment with `any = unknown`. TypeScript will never infer types of arrays. `any` is mostly used with strings.
+- **enums**: Enums can be defined with string or number values. Enums default to 0.
+- **definitely typed**: Refers to a project that involves a central repository of definitions for npm packages which do not have types, specified in `tsconfig.json`.
+- **overriding**: When a class extends another class and replaces the members of its parent, it is called overriding.
+- **implicit**: `firstName = "John";`
+- **explicit**: `firstName: string = "John";`
+- **disabled type checking**: `let myVar: any;`
+- **unknown**: `let myVar: unknown;`
+- **no array changes**: `const names: readonly string[] = ["Dylan"];`
+- **loosely typed**: Refers to vanilla JavaScript.
+- **tuple**: `let ourTuple: [number, boolean, string];` - an array of mixed types.
+
 ### Type Manipulation 🔧
+
 ### Creating Types from Types 🧩
+
 ### Generics 📦
+
 ### Keyof Type Operator 🔑
+
 ### Typeof Type Operator 📝
+
 ### Indexed Access Types 🎯
+
 ### Conditional Types ❓
+
 ### Mapped Types 🗺️
+
 ### Template Literal Types ✨
+
 ### Classes 🏫
+
 ### Modules 📦
 
 ## Reference
@@ -28,19 +55,33 @@ The TypeScript Handbook is a comprehensive guide that covers various aspects of 
 The reference section provides deep dive materials and reference guides for TypeScript:
 
 ### Utility Types 🛠️
+
 ### Cheat Sheets 📄
+
 ### Decorators 🎨
+
 ### Declaration Merging 🔄
+
 ### Enums 🌐
+
 ### Iterators and Generators 🔄
+
 ### JSX 🌐
+
 ### Mixins 🧁
+
 ### Namespaces 🌐
+
 ### Symbols 🔍
+
 ### Triple-Slash Directives 🌐
+
 ### Type Compatibility 🔄
+
 ### Type Inference 🔄
+
 ### Variable Declaration 🔄
+
 ### Modules Reference 📦
 
 ## Tutorials
@@ -48,7 +89,9 @@ The reference section provides deep dive materials and reference guides for Type
 Learn how to use TypeScript in various environments and frameworks:
 
 ### DOM Manipulation with TypeScript 🌐
+
 ### Migrating from JavaScript to TypeScript 🔄
+
 ### Using Babel with TypeScript 🌐
 
 ## Declaration Files
@@ -56,17 +99,29 @@ Learn how to use TypeScript in various environments and frameworks:
 Declaration files are important for describing existing JavaScript libraries and frameworks. Learn how to write declaration files and contribute to DefinitelyTyped:
 
 ### Introduction to Declaration Files 📄
+
 ### Declaration Reference 📄
+
 ### Library Structures 📚
+
 ### Templates for .d.ts Files 📄
+
 ### Module Declarations 📦
+
 ### Plugin Declarations 📦
+
 ### Class Declarations 🏫
+
 ### Function Declarations 🔄
+
 ### Global Declarations 🌐
+
 ### Modifying Existing Modules 📦
+
 ### Do's and Don'ts ❌
+
 ### Publishing Declaration Files 📄
+
 ### Consuming Declaration Files 📄
 
 ## JavaScript
@@ -74,8 +129,11 @@ Declaration files are important for describing existing JavaScript libraries and
 Discover how to leverage TypeScript-powered JavaScript tooling:
 
 ### JavaScript Projects Utilizing TypeScript 🌐
+
 ### Type Checking JavaScript Files 🔄
+
 ### Creating .d.ts Files from .js Files 📄
+
 ### Project Configuration 📦
 
 ## Compiler Configuration
@@ -83,12 +141,19 @@ Discover how to leverage TypeScript-powered JavaScript tooling:
 Learn about the tsconfig.json file and how to configure the TypeScript compiler:
 
 ### What is a tsconfig.json ❓
+
 ### Compiler Options in MSBuild 🛠️
+
 ### TSConfig Reference 📄
+
 ### tsc CLI Options ⚙️
+
 ### Project References 📦
+
 ### Integrating with Build Tools 🛠️
+
 ### Configuring Watch ⏱️
+
 ### Nightly Builds 🌙
 
 ## Cheat Sheets
@@ -96,8 +161,11 @@ Learn about the tsconfig.json file and how to configure the TypeScript compiler:
 Downloadable syntax reference pages for different parts of everyday TypeScript code:
 
 ### Control Flow Analysis 🔄
+
 ### Classes 🏫
+
 ### Interfaces 🧩
+
 ### Types 📦
 
 For more detailed information, you can download PDFs and PNGs of the cheat sheets.
